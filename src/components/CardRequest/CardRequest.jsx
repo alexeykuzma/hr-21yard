@@ -1,6 +1,5 @@
 import React from "react";
 import GroupList from "../GroupList";
-import Breadcrumbs from "../Breadcrumbs";
 import style from './CardRequest.module.scss';
 
 const CardRequest = () =>{
@@ -39,22 +38,12 @@ const CardRequest = () =>{
     },
   ]
 
-  const pathTest = [
-    {id: 1,
-    name: "Скобяные изделия" },
-    {id: 2,
-    name: "Крепеж"},
-    {id: 3,
-    name: "Саморезы"},
-  ]
-
 
   return (
     <section className={style.CardRequest}>
       <h1 className={style.title}>Форма отправки</h1>
       <form className={style.form}>
         <h2 className={style.form__title}>Информация о товаре</h2>
-      <Breadcrumbs path={pathTest} />
       <GroupList items={testMenu} />
       </form>
     </section>
