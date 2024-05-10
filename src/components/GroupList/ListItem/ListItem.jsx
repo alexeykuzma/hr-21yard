@@ -4,10 +4,7 @@ import style from "./ListItem.module.scss";
 const ListItem = (props) => {
   const clickNext = props.clickNext;
   const { id = 0, name = '', groups = [] } = props.item;
-  // console.log(props.item);
-  // console.log(clickNext);
   const nextHandle = () =>{
-    // console.log('click next');
     clickNext(groups);
   }
 
