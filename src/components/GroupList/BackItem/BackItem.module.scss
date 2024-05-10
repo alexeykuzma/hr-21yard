@@ -1,0 +1,14 @@
+.BackItem{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 15px 20px;
+  width: 100%;
+  height: 50px;
+}
+.name{
+  display: flex;
+  color: #585858;
+  cursor: pointer;
+}

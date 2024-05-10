@@ -1,0 +1,11 @@
+.SubList{
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  height: auto;
+  min-width: 280px;
+  transition: all 1s;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}

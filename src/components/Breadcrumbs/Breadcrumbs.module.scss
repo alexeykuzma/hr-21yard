@@ -1,0 +1,39 @@
+$background-color: #fafafa;
+$font-color: rgb(48, 47, 45);
+
+.Breadcrumbs{
+  display: flex;
+  gap: 10px;
+  width: min-content;
+  height: 40px;
+  box-sizing: border-box;
+  padding: 5px 15px;
+  border-radius: 20px;
+  background-color: $background-color; 
+}
+
+.path_container{
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.cancel{
+cursor: pointer;
+}
+
+.element{
+  display: flex;
+  white-space: nowrap;
+  height: 25px;
+  padding:2px 0px 3px 0px;
+  color: $font-color;
+font-family: "Futura" , sans-serif;
+font-size: 20px;
+font-weight: 500;
+line-height: 25px;
+letter-spacing: 0px;
+text-align: left;
+}

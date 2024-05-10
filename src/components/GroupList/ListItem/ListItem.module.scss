@@ -1,0 +1,16 @@
+.ListItem{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 15px 20px;
+  width: 100%;
+  height: 50px;
+}
+
+.arrow_right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}

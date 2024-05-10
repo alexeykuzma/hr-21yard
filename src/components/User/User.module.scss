@@ -1,0 +1,22 @@
+$userColor: #302f2d;
+
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.user__ico {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.user__name {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  width: 240px;
+  color: $userColor;
+}
